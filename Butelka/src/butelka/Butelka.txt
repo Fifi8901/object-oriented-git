@@ -1,0 +1,42 @@
+package butelka;
+
+public class Butelka 
+{
+
+double ileLitrow;
+double pojemnoscButelki;
+static int ileButelek=50;
+double gdziePrzelac;
+
+
+
+
+
+Butelka()
+{
+    ileLitrow=10;
+    pojemnoscButelki=20;
+}
+public static void main(String[] args) 
+    {
+        
+       Butelka[]butelka = new Butelka[ileButelek];
+       for(int i=0; i<ileButelek; i++)
+       {
+           if(i%2!=0)
+           {
+               butelka[i] = new Butelka (12, 40);
+           }
+           else if (i%3!=0)
+           {
+               butelka[i]= new Butelka (8, 12.4);
+           }
+           else
+               
+            butelka[i] = new Butelka();
+          
+       }
+  }
+  
+    
+}
