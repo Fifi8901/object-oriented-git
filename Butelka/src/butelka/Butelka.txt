@@ -19,6 +19,15 @@ Butelka(double ileLitrow, double pojemnoscButelki)
         this.pojemnoscButelki+=pojemnoscButelki;
      }
 
+void wlej(double ilosc){   
+     this.ileLitrow+=ilosc;
+     }
+
+void wylej(double ilosc)  {
+     this.ileLitrow-=ilosc;
+     }
+
+
 {
     ileLitrow=10;
     pojemnoscButelki=20;
