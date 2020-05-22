@@ -1,0 +1,2 @@
+Dodałem na swojego brancha projekt z Dziedziczenia, polimorfizmu i interfejsów.
+Ponadtto, wrzuciłem na mastera taki jakby trening klas (w tym abstrakcyjnych)oraz spróbujemy użyć tam instanceof.
