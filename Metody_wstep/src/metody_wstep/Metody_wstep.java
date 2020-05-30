@@ -7,7 +7,7 @@ public class Metody_wstep
     {
         
       Test a = new Test();  
-      a.pokazWynik("Jan ", "Kowalski");
+      a.pokazWynik("Wojtek ", "Wolinski");
       Test a2 = new Test();
       a2.pokazWynik("Andrzej", "Andrzej");
       int wynik = a.dodaj(4, 3);

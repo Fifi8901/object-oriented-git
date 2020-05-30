@@ -12,7 +12,7 @@ abstract class Osoba
         this.nazwisko=nazwisko;
     }
     
-    abstract void getInfo();
+    
    
 }
 class Student extends Osoba
@@ -23,6 +23,13 @@ class Student extends Osoba
        
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  
+  
+=======
+>>>>>>> 5782595b69927f9f6f63d588615dd2b16f0774a6
     @Override
     void getInfo() 
     {
@@ -34,6 +41,10 @@ class Student extends Osoba
     {
         System.out.println("Ucze się przecież");
     }
+<<<<<<< HEAD
+=======
+>>>>>>> ab81815d7f1b3ac543e7a60caccf8756af370ec0
+>>>>>>> 5782595b69927f9f6f63d588615dd2b16f0774a6
 }
 class Pracownik extends Osoba
 {
@@ -45,6 +56,12 @@ class Pracownik extends Osoba
     }
     double wynagrodzenie;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+   
+=======
+>>>>>>> 5782595b69927f9f6f63d588615dd2b16f0774a6
     @Override
     void getInfo() 
     {
@@ -57,6 +74,10 @@ class Pracownik extends Osoba
     {
         System.out.println("Pracuje se");
     }
+<<<<<<< HEAD
+=======
+>>>>>>> ab81815d7f1b3ac543e7a60caccf8756af370ec0
+>>>>>>> 5782595b69927f9f6f63d588615dd2b16f0774a6
 }
 
 public class Trening_klas_instance_of 
@@ -67,6 +88,12 @@ public class Trening_klas_instance_of
         Osoba[]osoby=new Osoba[5];
         osoby[0]=new Student("Filip","Stelmański");
         osoby[1]=new Pracownik("Andrzej","Jakiśtam",1000.2);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        for(Osoba person:osoby)
+=======
+>>>>>>> 5782595b69927f9f6f63d588615dd2b16f0774a6
         for(Osoba person:osoby)
         {
             if(person instanceof Pracownik)
@@ -92,4 +119,9 @@ public class Trening_klas_instance_of
         
     }
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ab81815d7f1b3ac543e7a60caccf8756af370ec0
+>>>>>>> 5782595b69927f9f6f63d588615dd2b16f0774a6
