@@ -42,4 +42,13 @@ class Test
             return 0;
         return a/b;
     }
+
+    
+    //Wstepny konstruktor domyślny
+    public Test() {
+    }
+
+  
+    
+    
 }

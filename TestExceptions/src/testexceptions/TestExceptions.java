@@ -19,5 +19,15 @@ public class TestExceptions {
                   System.out.println("Quiting...");
               } 
     }
+
+    //Konstruktor domyśnlny
+    public TestExceptions() {
+        
+        
+        
+        
+    }
+  
+  
   
 }

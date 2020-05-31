@@ -24,4 +24,6 @@ public class Tablice_wielowymiarowe
         System.out.println(tab2[3][3]);
     }
     
+    
+    
 }
